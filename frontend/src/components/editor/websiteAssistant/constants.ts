@@ -1,13 +1,24 @@
 import React from 'react';
 import { Palette, FileText, HelpCircle, Settings, Plus } from 'lucide-react';
 import type { ModeOption } from './types';
+import type { EditableComponent } from '@/types/editorial';
 
-/**
- * Mode Options Configuration
- * 
- * Defines the available chat modes for the website assistant.
- * This is static and doesn't need to be updated by the parent project.
- */
+// Component detail imports
+import { carouselHeroDetails } from "@/components/designs/herobanners/carouselHero";
+import { experienceCardDetails } from "@/components/designs/contentPieces/experienceCard";
+import { textAndListDetails } from "@/components/designs/textComponents/textAndList";
+import { featureBoxesDetails } from "@/components/designs/textComponents/featureBoxes";
+import { accordionDetails } from "@/components/designs/textComponents/accordion";
+import { gridCarouselDetails } from "@/components/designs/carousels/gridCarousel";
+import { testimonials3Details } from "@/components/designs/testimonials/testimonials3";
+import { contactCloserDetails } from "@/components/designs/misc/contactCloser";
+import { bgImageHeroDetails } from "@/components/designs/herobanners/bgImageHero";
+import { imageTextPointsDetails } from "@/components/designs/contentPieces/imageTextPoints";
+import { processStepsDetails } from "@/components/designs/textComponents/processSteps";
+import { imageTextBoxDetails } from "@/components/designs/contentPieces/imageTextBox";
+import { closingStatementDetails } from "@/components/designs/contentPieces/closingStatement";
+
+// Mode options configuration
 export const MODE_OPTIONS: ModeOption[] = [
   {
     id: 'colors',
@@ -48,3 +59,20 @@ export const MODE_OPTIONS: ModeOption[] = [
     color: 'from-indigo-500 to-purple-500',
   },
 ];
+
+// Map component types to their details
+export const COMPONENT_DETAILS_MAP: Record<string, EditableComponent> = {
+  carouselHero: carouselHeroDetails,
+  experienceCard: experienceCardDetails,
+  textAndList: textAndListDetails,
+  featureBoxes: featureBoxesDetails,
+  accordion: accordionDetails,
+  gridCarousel: gridCarouselDetails,
+  testimonials3: testimonials3Details,
+  contactCloser: contactCloserDetails,
+  bgImageHero: bgImageHeroDetails,
+  imageTextPoints: imageTextPointsDetails,
+  processSteps: processStepsDetails,
+  imageTextBox: imageTextBoxDetails,
+  closingStatement: closingStatementDetails,
+};
