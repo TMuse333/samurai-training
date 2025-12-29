@@ -18,6 +18,7 @@ const AccordionEdit: React.FC<EditorialComponentProps> = ({ id }) => {
   const { setCurrentComponent, currentComponent, setAssistantMessage, LlmCurrentTextOutput, setLlmCurrentTextOutput, currentColorEdits, setCurrentColorEdits } = useComponentEditor();
 
   const updateComponentProps = useWebsiteStore((state) => state.updateComponentProps);
+  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
 
   const {
     array: rawArray = [],
@@ -121,7 +122,7 @@ const AccordionEdit: React.FC<EditorialComponentProps> = ({ id }) => {
 
   const updateProp = <K extends keyof AccordionProps>(key: K, value: AccordionProps[K]) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(id, { [key]: value });
+    updateComponentProps(currentPageSlug, id, { [key]: value });
   };
 
   const handleNextPage = () => {
