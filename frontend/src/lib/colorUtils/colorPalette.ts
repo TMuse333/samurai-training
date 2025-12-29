@@ -6,7 +6,8 @@ export interface DerivedColorPalette extends BaseColorProps {
     textHighlightColor: string;    // Same as mainColor for consistency
     gradientBg: string[];          // Array of shades from mainColor
     lightAccent: string;           // Lighter version for hover states
-    darkAccent: string
+    darkAccent: string;
+    darkText: string;              // Black text color in hex
   }
 
   export function deriveColorPalette(
@@ -56,6 +57,7 @@ export interface DerivedColorPalette extends BaseColorProps {
       gradientBg,
       lightAccent: lightenHexColor(mainColor, 30),
       darkAccent: darkenHexColor(mainColor, 30),
+      darkText: "#000000",
     };
   }
   
