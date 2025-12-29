@@ -1,7 +1,7 @@
-import ContactCloser from "./contactCloser.prod";
+import ContactCloser from "./contactCloser";
 import ContactCloserEdit from "./contactCloserEdit";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
-import { BaseColorProps,  } from "@/types";;
+import { EditableComponent } from "@/types/editorial";
+import { BaseColorProps } from "@/types";;
 
 export interface ContactCloserProps extends BaseColorProps {
   title?: string;
@@ -30,14 +30,5 @@ export const contactCloserDetails: EditableComponent = {
   category: "misc",
 };
 
-export const contactCloserComponent: WebsiteComponent<
-  EditorialComponentProps,
-  ContactCloserProps
-> = {
-  editorial: ContactCloserEdit,
-  production: ContactCloser,
-  editableProps: contactCloserDetails,
-};
-
-export { ContactCloser, ContactCloserEdit };
+export { ContactCloserEdit };
 

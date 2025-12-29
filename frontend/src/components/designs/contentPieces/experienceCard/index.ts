@@ -1,6 +1,6 @@
 import ExperienceCardEdit from "./experienceCardEdit";
-import ExperienceCard from "./experienceCard.prod";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import ExperienceCard from "./experienceCard";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp, StandardText } from "@/types";;
 
 export const experienceCardDetails: EditableComponent = {
@@ -14,13 +14,13 @@ export const experienceCardDetails: EditableComponent = {
     { key: "description", label: "Description", description: "Main content describing the experience", type: "text", wordLimit: 50 },
     { key: "subTitle", label: "Aspect Header", description: "Header text above the aspects list", type: "text", wordLimit: 10 },
     { key: "buttonText", label: "Button Text", description: "CTA button text (if link provided)", type: "text", wordLimit: 5 },
-    
+
     // Image Field
     { key: "images.main", label: "Main Image", description: "Primary card image", type: "image" },
-    
+
     // Array Field
     { key: "array", label: "Key Aspects", description: "List of key aspects or features", type: "standardArray", arrayLength: { min: 3, max: 9 } },
-    
+
     // Color Fields
     { key: "textColor", label: "Text Color", description: "Main body text color, should contrast with background", type: "color" },
     { key: "baseBgColor", label: "Background Color", description: "Base background color for the card", type: "color" },
@@ -66,10 +66,4 @@ export const defaultExperienceCardProps: Required<Omit<ExperienceCardProps, 'arr
   items: [],
 };
 
-export const experienceCardComponent: WebsiteComponent<EditorialComponentProps, Partial<ExperienceCardProps>> = {
-  editorial: ExperienceCardEdit,
-  production: ExperienceCard,
-  editableProps: experienceCardDetails
-};
-
-export { ExperienceCard, ExperienceCardEdit };
+export { ExperienceCardEdit };

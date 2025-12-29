@@ -1,7 +1,7 @@
 // components/testimonials3/index.ts
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps } from "@/types";;
-import Testimonials3 from "./testimonials3.prod";
+import Testimonials3 from "./testimonials3";
 import Testimonials3Edit from "./testimonials3Edit";
 
 export const testimonials3Details: EditableComponent = {
@@ -109,10 +109,4 @@ export interface Testimonials3Props extends Partial<BaseComponentProps> {
   }>;
 }
 
-export const testimonials3Component: WebsiteComponent<EditorialComponentProps, Partial<Testimonials3Props>> = {
-  editorial: Testimonials3Edit,
-  production: Testimonials3,
-  editableProps: testimonials3Details
-};
-
-export { Testimonials3, Testimonials3Edit };
+export { Testimonials3Edit };

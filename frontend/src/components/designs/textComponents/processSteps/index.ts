@@ -1,6 +1,6 @@
-import ProcessSteps from "./processSteps.prod";
+import ProcessSteps from "./processSteps";
 import ProcessStepsEdit from "./processStepsEdit";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;
 
 export const processStepsDetails: EditableComponent = {
@@ -118,10 +118,4 @@ export const defaultProcessStepsProps: Required<Omit<ProcessStepsProps, 'textArr
   items: [],
 };
 
-export const processStepsComponent: WebsiteComponent<EditorialComponentProps, Partial<ProcessStepsProps>> = {
-  editorial: ProcessStepsEdit,
-  production: ProcessSteps,
-  editableProps: processStepsDetails
-};
-
-export { ProcessSteps, ProcessStepsEdit };
+export { ProcessStepsEdit };

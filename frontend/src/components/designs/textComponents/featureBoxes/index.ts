@@ -1,7 +1,7 @@
 // components/featureBoxes/index.ts
-import FeatureBoxes from "./featureBoxes.prod";
+import FeatureBoxes from "./featureBoxes";
 import FeatureBoxesEdit from "./featureBoxesEdit";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;
 
 export const featureBoxesDetails: EditableComponent = {
@@ -66,7 +66,7 @@ export interface FeatureBoxesProps extends Partial<BaseComponentProps> {
   // Uses images from BaseComponentProps, keyed by index (e.g., "0", "1", "2")
 }
 
-export const defaultFeatureBoxesProps: Required<Omit<FeatureBoxesProps, 'array' | 'images'>> & { 
+export const defaultFeatureBoxesProps: Required<Omit<FeatureBoxesProps, 'array' | 'images'>> & {
   array: Array<{ title: string; description: string }>;
   images: Record<string, ImageProp>;
 } = {
@@ -110,11 +110,5 @@ export const defaultFeatureBoxesProps: Required<Omit<FeatureBoxesProps, 'array' 
   items: [],
 };
 
-export const featureBoxesComponent: WebsiteComponent<EditorialComponentProps, Partial<FeatureBoxesProps>> = {
-  editorial: FeatureBoxesEdit,
-  production: FeatureBoxes,
-  editableProps: featureBoxesDetails,
-};
-
-export { FeatureBoxes, FeatureBoxesEdit };
+export { FeatureBoxesEdit };
 

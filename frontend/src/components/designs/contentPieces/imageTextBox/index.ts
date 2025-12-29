@@ -1,7 +1,7 @@
 // components/imageTextBox/index.ts
-import ImageTextBox from "./imageTextBox.prod";
+import ImageTextBox from "./imageTextBox";
 import ImageTextBoxEdit from "./imageTextBoxEdit";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;
 
 export const imageTextBoxDetails: EditableComponent = {
@@ -9,7 +9,7 @@ export const imageTextBoxDetails: EditableComponent = {
   details:
     "A flexible image and text section with optional reverse layout, background color, and styling options.",
   uniqueEdits: [
-   
+
   ],
   editableFields: [
     {
@@ -87,7 +87,7 @@ export const defaultImageTextBoxProps = {
     radialPosition: "50% 0%",
     radialBaseStop: 50,
   } as const,
-} 
+}
 
 export interface ImageTextBoxProps extends Partial<BaseComponentProps> {
   images?: {
@@ -99,10 +99,4 @@ export interface ImageTextBoxProps extends Partial<BaseComponentProps> {
   objectContain?: boolean;
 }
 
-export const imageTextBoxComponent: WebsiteComponent<EditorialComponentProps, Partial<ImageTextBoxProps>> = {
-  editorial: ImageTextBoxEdit,
-  production: ImageTextBox,
-  editableProps: imageTextBoxDetails,
-};
-
-export { ImageTextBox, ImageTextBoxEdit };
+export { ImageTextBoxEdit };

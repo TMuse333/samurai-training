@@ -1,7 +1,7 @@
 // components/accordion/index.ts
-import Accordion from "./accordion.prod";
+import Accordion from "./accordion";
 import AccordionEdit from "./accordionEdit";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps } from "@/types";;
 
 export const accordionDetails: EditableComponent = {
@@ -73,7 +73,7 @@ export interface AccordionProps extends Omit<Partial<BaseComponentProps>, 'items
   // Each item should be StandardText type: { title: string, description: string }
 }
 
-export const defaultAccordionProps: Required<Omit<AccordionProps, 'array'>> & { 
+export const defaultAccordionProps: Required<Omit<AccordionProps, 'array'>> & {
   array: Array<{ title: string; description: string }>;
 } = {
   textColor: "#1f2937",
@@ -115,10 +115,4 @@ export const defaultAccordionProps: Required<Omit<AccordionProps, 'array'>> & {
 
 };
 
-export const accordionComponent: WebsiteComponent<EditorialComponentProps, Partial<AccordionProps>> = {
-  editorial: AccordionEdit,
-  production: Accordion,
-  editableProps: accordionDetails,
-};
-
-export { Accordion, AccordionEdit };
+export { AccordionEdit };

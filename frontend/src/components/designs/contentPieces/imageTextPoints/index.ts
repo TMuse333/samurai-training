@@ -1,7 +1,7 @@
 // components/imageTextPoints/index.ts
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;
-import ImageTextPoints from "./imageTextPoints.prod";
+import ImageTextPoints from "./imageTextPoints";
 import ImageTextPointsEdit from "./imageTextPointsEdit";
 
 export const imageTextPointsDetails: EditableComponent = {
@@ -9,31 +9,31 @@ export const imageTextPointsDetails: EditableComponent = {
   details: "A flexible image and text section with a gradient background, optional reverse layout, and a list of steps for highlighting key points.",
   uniqueEdits: [],
   editableFields: [
-    { 
-      key: "title", 
-      label: "Title", 
+    {
+      key: "title",
+      label: "Title",
       type: "text",
       description: "Main heading text for the section."
     },
-    { 
-      key: "description", 
-      label: "Description", 
+    {
+      key: "description",
+      label: "Description",
       type: "text",
       description: "Supporting paragraph or details shown under the title."
     },
-    { 
-      key: "buttonText", 
-      label: "Button Text", 
+    {
+      key: "buttonText",
+      label: "Button Text",
       type: "text",
       description: "Text displayed on the call-to-action button."
     },
-    { 
-      key: "images.main", 
-      label: "Image Source", 
+    {
+      key: "images.main",
+      label: "Image Source",
       type: "image",
       description: "The image file or URL displayed in the section."
     },
-    { 
+    {
       key: "textArray",
       label: "Text Array",
       type: "standardArray", // 🔹 Updated type
@@ -41,18 +41,18 @@ export const imageTextPointsDetails: EditableComponent = {
       arrayLength: { fixed: 3 },
     },
 
-    { 
-      key: "textColor", 
-      label: "Text Color", 
-      description: "Main body text color and header, this should typically be black or white, depending on if the background is light or dark, the text color should contrast with the baseBgColor", 
-      type: "color" 
+    {
+      key: "textColor",
+      label: "Text Color",
+      description: "Main body text color and header, this should typically be black or white, depending on if the background is light or dark, the text color should contrast with the baseBgColor",
+      type: "color"
     },
 
-    { 
-      key: "baseBgColor", 
-      label: "Background Color", 
-      description: "This is the base background color on the screen, it will usually contrast with the gradient colors below", 
-      type: "color" 
+    {
+      key: "baseBgColor",
+      label: "Background Color",
+      description: "This is the base background color on the screen, it will usually contrast with the gradient colors below",
+      type: "color"
     },
 
     {
@@ -61,14 +61,14 @@ export const imageTextPointsDetails: EditableComponent = {
       description: "The foreground color of the component, used for buttons, borders accents",
       type: "color",
     },
-    { 
-      key: "reverse", 
-      label: "Reverse Layout", 
+    {
+      key: "reverse",
+      label: "Reverse Layout",
       type: "color",
       description: "Flips the order of the image and text layout."
     },
     {
-      key:'bgLayout', 
+      key:'bgLayout',
       label:'Background layout',
       description:'The layout for the background colors',
       type:'color'
@@ -126,10 +126,4 @@ export interface ImageTextPointsProps extends Partial<BaseComponentProps> {
   reverse?: boolean;
 }
 
-export const imageTextPointsComponent: WebsiteComponent<EditorialComponentProps, Partial<ImageTextPointsProps>> = {
-  editorial: ImageTextPointsEdit,
-  production: ImageTextPoints,
-  editableProps: imageTextPointsDetails
-};
-
-export {ImageTextPoints, ImageTextPointsEdit}
+export { ImageTextPointsEdit };
