@@ -56,7 +56,7 @@ const BgImageHeroEdit: React.FC<EditorialComponentProps> = ({ id }) => {
 
   const updateProp = <K extends keyof BgImageHeroProps>(key: K, value: BgImageHeroProps[K]) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(id, { [key]: value });
+    updateComponentProps(currentPageSlug, id, { [key]: value });
   };
 
   // Safe image fallback
