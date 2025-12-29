@@ -110,7 +110,7 @@ export const defaultTextAndListProps = {
   },
   items: [],
   array: [],
-} 
+}
 
 export interface TextAndListProps extends Partial<BaseComponentProps> {
   subTitle?: string;

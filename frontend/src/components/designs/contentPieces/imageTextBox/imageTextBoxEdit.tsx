@@ -19,7 +19,6 @@ const ImageTextBoxEdit: React.FC<EditorialComponentProps> = ({ id }) => {
 
   const { setCurrentComponent, currentComponent, setAssistantMessage, LlmCurrentTextOutput, setLlmCurrentTextOutput, currentColorEdits, setCurrentColorEdits } = useComponentEditor();
   const updateComponentProps = useWebsiteStore((state) => state.updateComponentProps);
-  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
 
   const props = { ...defaultImageTextBoxProps, ...componentProps };
   const colors = deriveColorPalette(props, props.bgLayout?.type);
@@ -55,7 +54,7 @@ const ImageTextBoxEdit: React.FC<EditorialComponentProps> = ({ id }) => {
 
   const updateProp = <K extends keyof ImageTextBoxProps>(key: K, value: ImageTextBoxProps[K]) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(currentPageSlug, id, { [key]: value });
+    updateComponentProps(id, { [key]: value });
   };
 
   return (

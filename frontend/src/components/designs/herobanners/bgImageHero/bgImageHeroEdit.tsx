@@ -23,7 +23,6 @@ const BgImageHeroEdit: React.FC<EditorialComponentProps> = ({ id }) => {
     setCurrentColorEdits
   } = useComponentEditor();
   const updateComponentProps = useWebsiteStore((state) => state.updateComponentProps);
-  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
 
   // Merge with defaults to ensure all required props exist
   const propsWithDefaults = { ...defaultBgImageHeroProps, ...componentProps };
@@ -57,7 +56,7 @@ const BgImageHeroEdit: React.FC<EditorialComponentProps> = ({ id }) => {
 
   const updateProp = <K extends keyof BgImageHeroProps>(key: K, value: BgImageHeroProps[K]) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(currentPageSlug, id, { [key]: value });
+    updateComponentProps(id, { [key]: value });
   };
 
   // Safe image fallback

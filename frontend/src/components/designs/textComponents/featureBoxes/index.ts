@@ -65,7 +65,7 @@ export interface FeatureBoxesProps extends Partial<BaseComponentProps> {
   // Uses images from BaseComponentProps, keyed by index (e.g., "0", "1", "2")
 }
 
-export const defaultFeatureBoxesProps: Required<Omit<FeatureBoxesProps, 'array' | 'images'>> & { 
+export const defaultFeatureBoxesProps: Required<Omit<FeatureBoxesProps, 'array' | 'images'>> & {
   array: Array<{ title: string; description: string }>;
   images: Record<string, ImageProp>;
 } = {

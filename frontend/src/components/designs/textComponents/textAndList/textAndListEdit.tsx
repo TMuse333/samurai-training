@@ -19,7 +19,6 @@ const TextAndListEdit: React.FC<EditorialComponentProps> = ({ id }) => {
   const { setCurrentComponent, currentComponent, setAssistantMessage, LlmCurrentTextOutput, setLlmCurrentTextOutput, currentColorEdits, setCurrentColorEdits } = useComponentEditor();
 
   const updateComponentProps = useWebsiteStore((state) => state.updateComponentProps);
-  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
 
   const {
     subTitle,
@@ -85,7 +84,7 @@ const TextAndListEdit: React.FC<EditorialComponentProps> = ({ id }) => {
 
   const updateProp = <K extends keyof TextAndListProps>(key: K, value: TextAndListProps[K]) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(currentPageSlug, id, { [key]: value });
+    updateComponentProps(id, { [key]: value });
   };
 
   return (

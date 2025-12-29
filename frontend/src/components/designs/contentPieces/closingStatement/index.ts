@@ -88,7 +88,7 @@ export const defaultClosingStatementProps: Required<Omit<ClosingStatementProps, 
       alt: "Company logo",
     },
   },
-  
+
   // Required BaseComponentProps
   array: [],
   items: [],

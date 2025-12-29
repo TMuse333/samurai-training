@@ -45,7 +45,6 @@ const GridCarouselEdit: React.FC<EditorialComponentProps> = ({ id }) => {
   } = useComponentEditor();
 
   const updateComponentProps = useWebsiteStore((state) => state.updateComponentProps);
-  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
 
   // Merge with defaults to ensure all required props exist
   const propsWithDefaults = { ...defaultGridCarouselProps, ...componentProps };
@@ -117,7 +116,7 @@ const GridCarouselEdit: React.FC<EditorialComponentProps> = ({ id }) => {
     value: GridCarouselProps[K]
   ) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(currentPageSlug, id, { [key]: value });
+    updateComponentProps(id, { [key]: value });
   };
 
   useSyncLlmOutput(

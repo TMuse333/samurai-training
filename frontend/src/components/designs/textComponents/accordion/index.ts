@@ -72,7 +72,7 @@ export interface AccordionProps extends Omit<Partial<BaseComponentProps>, 'items
   // Each item should be StandardText type: { title: string, description: string }
 }
 
-export const defaultAccordionProps: Required<Omit<AccordionProps, 'array'>> & { 
+export const defaultAccordionProps: Required<Omit<AccordionProps, 'array'>> & {
   array: Array<{ title: string; description: string }>;
 } = {
   textColor: "#1f2937",

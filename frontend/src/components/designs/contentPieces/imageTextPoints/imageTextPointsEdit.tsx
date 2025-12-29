@@ -20,7 +20,6 @@ const ImageTextPointsEdit: React.FC<EditorialComponentProps> = ({ id }) => {
   const { setCurrentComponent, currentComponent, setAssistantMessage, LlmCurrentTextOutput, setLlmCurrentTextOutput, currentColorEdits, setCurrentColorEdits } = useComponentEditor();
 
   const updateComponentProps = useWebsiteStore((state) => state.updateComponentProps);
-  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
 
   const {
     title,
@@ -79,7 +78,7 @@ const ImageTextPointsEdit: React.FC<EditorialComponentProps> = ({ id }) => {
 
   const updateProp = <K extends keyof ImageTextPointsProps>(key: K, value: ImageTextPointsProps[K]) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(currentPageSlug, id, { [key]: value });
+    updateComponentProps(id, { [key]: value });
   };
 
   return (

@@ -8,7 +8,7 @@ export const imageTextBoxDetails: EditableComponent = {
   details:
     "A flexible image and text section with optional reverse layout, background color, and styling options.",
   uniqueEdits: [
-   
+
   ],
   editableFields: [
     {
@@ -86,7 +86,7 @@ export const defaultImageTextBoxProps = {
     radialPosition: "50% 0%",
     radialBaseStop: 50,
   } as const,
-} 
+}
 
 export interface ImageTextBoxProps extends Partial<BaseComponentProps> {
   images?: {

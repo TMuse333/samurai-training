@@ -2,46 +2,40 @@
 
 import React, { useState } from "react";
 import { EditorialComponentProps } from "@/types/editorial";
-import { contactCloserDetails, ContactCloserProps, defaultContactCloserProps } from ".";
+import { contactCloserDetails, ContactCloserProps } from ".";
 import useWebsiteStore from "@/stores/websiteStore";
 import { useComponentEditor } from "@/context";
-import { handleComponentClick, useSyncColorEdits, useSyncLlmOutput, useSyncPageDataToComponent } from "@/lib/hooks/hooks";
+import { handleComponentClick, useSyncColorEdits } from "@/lib/hooks/hooks";
 import { deriveColorPalette } from "@/lib/colorUtils";
-import ContactCloser, { ContactCloserProdProps } from "./contactCloser.prod";
+
+const initialContactCloserProps: ContactCloserProps = {
+  title: "Ready to Get Started?",
+  description: "Contact us today to discuss your cleaning needs. We're here to help!",
+  buttonText: "Get in Touch",
+  email: "info@example.com",
+  phone: "(123) 456-7890",
+  facebookUrl: "",
+  mainColor: "#3B82F6",
+  textColor: "#000000",
+  baseBgColor: "#FFFFFF",
+  bgLayout: {
+    type: "solid",
+  },
+};
 
 export const ContactCloserEdit: React.FC<EditorialComponentProps> = ({ id }) => {
-  const [componentProps, setComponentProps] = useState<Partial<ContactCloserProps>>({});
+  const currentPageData = useWebsiteStore((state) => state.currentPageData);
+  const { currentComponent, setCurrentComponent, setAssistantMessage, currentColorEdits, setCurrentColorEdits } =
+    useComponentEditor();
 
-  const {
-    currentComponent,
-    setCurrentComponent,
-    setAssistantMessage,
-    LlmCurrentTextOutput,
-    setLlmCurrentTextOutput,
-    currentColorEdits,
-    setCurrentColorEdits,
-  } = useComponentEditor();
-
-  const updateComponentProps = useWebsiteStore((state) => state.updateComponentProps);
-  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
-
-  // Merge with defaults
-  const propsWithDefaults = { ...defaultContactCloserProps, ...componentProps };
-
-  const colors = deriveColorPalette(propsWithDefaults, "solid");
-
-  // Sync hooks
-  useSyncLlmOutput(
-    currentComponent?.name,
-    "ContactCloser",
-    setComponentProps,
-    LlmCurrentTextOutput,
-    setLlmCurrentTextOutput,
-    contactCloserDetails.editableFields
+  const contactCloserComponent = currentPageData?.components.find(
+    (c) => c.componentCategory === "misc" && c.id === id
   );
+  const contactCloserProps = (contactCloserComponent?.props as ContactCloserProps) || initialContactCloserProps;
 
-  useSyncColorEdits(currentComponent?.name, "ContactCloser", setComponentProps, currentColorEdits);
-  useSyncPageDataToComponent(id, "ContactCloser", setComponentProps);
+  const [componentProps, setComponentProps] = useState<ContactCloserProps>(contactCloserProps);
+
+  const colors = deriveColorPalette(componentProps, "solid");
 
   const onClick = () => {
     handleComponentClick({
@@ -59,16 +53,13 @@ export const ContactCloserEdit: React.FC<EditorialComponentProps> = ({ id }) => 
     });
   };
 
-  const updateProp = <K extends keyof ContactCloserProps>(key: K, value: ContactCloserProps[K]) => {
-    setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(currentPageSlug, id, { [key]: value });
-  };
+  useSyncColorEdits(currentComponent?.name, "ContactCloser", setComponentProps, currentColorEdits);
 
   return (
     <div onClick={onClick} className="space-y-4 cursor-pointer">
       {/* Preview */}
       <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
-        <ContactCloser {...(propsWithDefaults as ContactCloserProdProps)} />
+        <ContactCloser {...componentProps} />
       </div>
     </div>
   );
