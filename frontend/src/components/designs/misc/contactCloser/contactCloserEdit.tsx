@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import { EditorialComponentProps } from "@/types/editorial";
 import { contactCloserDetails, ContactCloserProps } from ".";
-import ContactCloser from "./contactCloser";
 import useWebsiteStore from "@/stores/websiteStore";
 import { useComponentEditor } from "@/context";
 import { handleComponentClick, useSyncColorEdits } from "@/lib/hooks/hooks";
