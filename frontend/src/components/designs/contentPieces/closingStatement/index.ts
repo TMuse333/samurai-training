@@ -1,6 +1,8 @@
 // frontend/src/components/designs/contentPieces/closingStatement/index.ts
+import ClosingStatement from '"./closingStatement.prod";
 import ClosingStatementEdit from "./closingStatementEdit";
-import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent, ImageProp } from "@/types";
+import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { BaseComponentProps, ImageProp } from "@/types";;
 
 export const closingStatementDetails: EditableComponent = {
   name: "ClosingStatement",

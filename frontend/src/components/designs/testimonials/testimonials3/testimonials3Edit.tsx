@@ -4,7 +4,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { EditorialComponentProps, GradientConfig, BaseColorProps } from "@/types"; // Import BaseColorProps
+import { EditorialComponentProps } from "@/types/editorial";
+import { GradientConfig, BaseColorProps } from "@/types";; // Import BaseColorProps
 import { defaultTestimonials3Props, Testimonials3Props } from ".";
 import { useComponentEditor } from "@/context/context";
 import { handleComponentClick, useSyncLlmOutput, useSyncColorEdits, useSyncPageDataToComponent } from "@/lib/hooks/hooks";

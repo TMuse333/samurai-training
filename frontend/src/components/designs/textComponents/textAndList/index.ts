@@ -1,6 +1,8 @@
 // components/textAndList/index.ts
+import TextAndList from '"./textAndList.prod";
 import TextAndListEdit from "./textAndListEdit";
-import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent, ImageProp } from "@/types";
+import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { BaseComponentProps, ImageProp } from "@/types";;
 
 export const textAndListDetails: EditableComponent = {
     name: "TextAndList",

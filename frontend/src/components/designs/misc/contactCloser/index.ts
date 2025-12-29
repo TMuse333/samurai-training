@@ -1,10 +1,7 @@
+import ContactCloser from '"./contactCloser.prod";
 import ContactCloserEdit from "./contactCloserEdit";
-import {
-  WebsiteComponent,
-  EditorialComponentProps,
-  EditableComponent,
-  BaseColorProps,
-} from "@/types";
+import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { BaseColorProps,  } from "@/types";;
 
 export interface ContactCloserProps extends BaseColorProps {
   title?: string;

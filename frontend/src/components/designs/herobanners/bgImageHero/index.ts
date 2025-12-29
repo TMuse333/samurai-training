@@ -1,11 +1,7 @@
 import BgImageHeroEdit from "./bgImageHeroEdit";
-import {
-  WebsiteComponent,
-  EditorialComponentProps,
-  BaseComponentProps,
-  EditableComponent,
-  ImageProp,
-} from "@/types";
+import BgImageHero from '"./bgImageHero.prod";
+import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { BaseComponentProps, ImageProp,  } from "@/types";;
 
 // EditableComponent details
 export const bgImageHeroDetails: EditableComponent = {

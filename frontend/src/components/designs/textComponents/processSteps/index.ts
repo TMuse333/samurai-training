@@ -1,5 +1,7 @@
+import ProcessSteps from '"./processSteps.prod";
 import ProcessStepsEdit from "./processStepsEdit";
-import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent, ImageProp } from "@/types";
+import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { BaseComponentProps, ImageProp } from "@/types";;
 
 export const processStepsDetails: EditableComponent = {
   name: "ProcessSteps",

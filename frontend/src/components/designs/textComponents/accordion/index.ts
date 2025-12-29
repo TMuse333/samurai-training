@@ -1,6 +1,8 @@
 // components/accordion/index.ts
+import Accordion from '"./accordion.prod";
 import AccordionEdit from "./accordionEdit";
-import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent } from "@/types";
+import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { BaseComponentProps } from "@/types";;
 
 export const accordionDetails: EditableComponent = {
   name: "Accordion",

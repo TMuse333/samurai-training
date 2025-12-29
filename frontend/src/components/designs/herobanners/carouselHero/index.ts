@@ -1,5 +1,7 @@
 import CarouselHeroEdit from "./carouselHeroEdit";
-import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent, ImageProp, CarouselItem } from "@/types";
+import CarouselHero from '"./carouselHero.prod";
+import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { BaseComponentProps, ImageProp, CarouselItem } from "@/types";;
 
 export const carouselHeroDetails: EditableComponent = {
   name: "CarouselHero",
