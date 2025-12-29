@@ -219,7 +219,7 @@ const ExperienceCardEdit: React.FC<EditorialComponentProps> = ({ id }) => {
               layoutId={`feature-${idx}`} // Ensures smooth exit/enter
               className="backdrop-blur-md rounded-xl p-4 flex items-center gap-3 border border-white/20 shadow-lg hover:bg-white/20 transition-all duration-300 cursor-pointer"
               style={{ backgroundColor: colors.lightAccent,
-              color: colors.darkText }}
+              color:colors.darkText }}
               onClick={() => setExpandedIndex(expandedIndex === idx ? null : idx)}
             >
               <EditableTextField

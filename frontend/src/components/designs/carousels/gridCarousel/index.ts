@@ -1,5 +1,5 @@
 import { EditableComponent } from "@/types/editorial";
-import { BaseComponentProps, CarouselItem } from "@/types";
+import { BaseComponentProps, CarouselItem } from "@/types";;
 import GridCarouselEdit from "./gridCarouselEdit";
 
 export const gridCarouselDetails: EditableComponent = {

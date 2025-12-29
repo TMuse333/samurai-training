@@ -25,6 +25,8 @@ const initialContactCloserProps: ContactCloserProps = {
 
 export const ContactCloserEdit: React.FC<EditorialComponentProps> = ({ id }) => {
   const currentPageData = useWebsiteStore((state) => state.currentPageData);
+  const updateComponentProps = useWebsiteStore((state) => state.updateComponentProps);
+  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
   const { currentComponent, setCurrentComponent, setAssistantMessage, currentColorEdits, setCurrentColorEdits } =
     useComponentEditor();
 
@@ -34,6 +36,14 @@ export const ContactCloserEdit: React.FC<EditorialComponentProps> = ({ id }) => 
   const contactCloserProps = (contactCloserComponent?.props as ContactCloserProps) || initialContactCloserProps;
 
   const [componentProps, setComponentProps] = useState<ContactCloserProps>(contactCloserProps);
+
+  const updateProp = <K extends keyof ContactCloserProps>(
+    key: K,
+    value: ContactCloserProps[K]
+  ) => {
+    setComponentProps((prev) => ({ ...prev, [key]: value }));
+    updateComponentProps(currentPageSlug, id, { [key]: value });
+  };
 
   const colors = deriveColorPalette(componentProps, "solid");
 
