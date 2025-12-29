@@ -1,5 +1,4 @@
 // frontend/src/components/designs/contentPieces/closingStatement/index.ts
-import ClosingStatement from "./closingStatement";
 import ClosingStatementEdit from "./closingStatementEdit";
 import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent, ImageProp } from "@/types";
 

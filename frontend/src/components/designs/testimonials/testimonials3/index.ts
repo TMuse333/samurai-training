@@ -1,6 +1,5 @@
 // components/testimonials3/index.ts
 import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent } from "@/types";
-import Testimonials3 from "./testimonials3";
 import Testimonials3Edit from "./testimonials3edit";
 
 export const testimonials3Details: EditableComponent = {

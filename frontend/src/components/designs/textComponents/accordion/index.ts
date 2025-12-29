@@ -1,5 +1,4 @@
 // components/accordion/index.ts
-import Accordion from "./accordion";
 import AccordionEdit from "./accordionEdit";
 import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent } from "@/types";
 

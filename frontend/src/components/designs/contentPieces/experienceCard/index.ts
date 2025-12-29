@@ -1,5 +1,4 @@
 import ExperienceCardEdit from "./experienceCardEdit";
-import ExperienceCard from "./experienceCard";
 import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent, ImageProp, StandardText } from "@/types";
 
 export const experienceCardDetails: EditableComponent = {

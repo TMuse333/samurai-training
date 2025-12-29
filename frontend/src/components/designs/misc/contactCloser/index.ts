@@ -1,4 +1,3 @@
-import ContactCloser from "./contactCloser";
 import ContactCloserEdit from "./contactCloserEdit";
 import {
   WebsiteComponent,

@@ -1,5 +1,4 @@
 // components/textAndList/index.ts
-import TextAndList from "./textAndList";
 import TextAndListEdit from "./textAndListEdit";
 import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent, ImageProp } from "@/types";
 

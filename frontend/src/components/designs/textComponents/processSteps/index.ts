@@ -1,4 +1,3 @@
-import ProcessSteps from "./processSteps";
 import ProcessStepsEdit from "./processStepsEdit";
 import { WebsiteComponent, EditorialComponentProps, BaseComponentProps, EditableComponent, ImageProp } from "@/types";
 

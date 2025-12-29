@@ -1,5 +1,4 @@
 import BgImageHeroEdit from "./bgImageHeroEdit";
-import BgImageHero from "./bgImageHero";
 import {
   WebsiteComponent,
   EditorialComponentProps,
