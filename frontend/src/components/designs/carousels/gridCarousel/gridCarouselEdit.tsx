@@ -116,7 +116,7 @@ const GridCarouselEdit: React.FC<EditorialComponentProps> = ({ id }) => {
     value: GridCarouselProps[K]
   ) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(id, { [key]: value });
+    updateComponentProps("GridCarousel", id, { [key]: value });
   };
 
   useSyncLlmOutput(

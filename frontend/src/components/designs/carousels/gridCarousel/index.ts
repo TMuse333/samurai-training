@@ -1,4 +1,4 @@
-import { BaseComponentProps EditableComponent } from "@/types/editorial";
+import { BaseComponentProps,EditableComponent } from "@/types/editorial";
 import { CarouselItem } from "@/types";;
 import GridCarouselEdit from "./gridCarouselEdit";
 
