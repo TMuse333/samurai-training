@@ -1,7 +1,6 @@
 // frontend/src/components/designs/contentPieces/closingStatement/index.ts
-import ClosingStatement from "./closingStatement.prod";
 import ClosingStatementEdit from "./closingStatementEdit";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;
 
 export const closingStatementDetails: EditableComponent = {
@@ -95,13 +94,4 @@ export const defaultClosingStatementProps: Required<Omit<ClosingStatementProps, 
   items: [],
 };
 
-export const closingStatementComponent: WebsiteComponent<
-  EditorialComponentProps,
-  Partial<ClosingStatementProps>
-> = {
-  editorial: ClosingStatementEdit,
-  production: ClosingStatement,
-  editableProps: closingStatementDetails,
-};
-
-export { ClosingStatement, ClosingStatementEdit };
+export { ClosingStatementEdit };

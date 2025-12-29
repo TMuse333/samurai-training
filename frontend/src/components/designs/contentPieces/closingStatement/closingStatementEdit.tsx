@@ -34,6 +34,7 @@ const ClosingStatementEdit: React.FC<EditorialComponentProps> = ({ id }) => {
   } = useComponentEditor();
 
   const updateComponentProps = useWebsiteStore((state) => state.updateComponentProps);
+  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
 
   const {
     title,
@@ -98,7 +99,7 @@ const ClosingStatementEdit: React.FC<EditorialComponentProps> = ({ id }) => {
     value: ClosingStatementProps[K]
   ) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(id, { [key]: value });
+    updateComponentProps(currentPageSlug, id, { [key]: value });
   };
 
   return (

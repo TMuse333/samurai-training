@@ -1,7 +1,6 @@
 // components/textAndList/index.ts
-import TextAndList from "./textAndList.prod";
 import TextAndListEdit from "./textAndListEdit";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;
 
 export const textAndListDetails: EditableComponent = {
@@ -123,10 +122,4 @@ export interface TextAndListProps extends Partial<BaseComponentProps> {
   textArray?: Array<{ title: string; description: string }>;
 }
 
-export const textAndListComponent: WebsiteComponent<EditorialComponentProps, Partial<TextAndListProps>> = {
-  editorial: TextAndListEdit,
-  production: TextAndList,
-  editableProps: textAndListDetails,
-};
-
-export { TextAndList, TextAndListEdit };
+export { TextAndListEdit };

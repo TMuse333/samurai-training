@@ -1,7 +1,6 @@
 // components/imageTextPoints/index.ts
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;
-import ImageTextPoints from "./imageTextPoints.prod";
 import ImageTextPointsEdit from "./imageTextPointsEdit";
 
 export const imageTextPointsDetails: EditableComponent = {
@@ -126,10 +125,4 @@ export interface ImageTextPointsProps extends Partial<BaseComponentProps> {
   reverse?: boolean;
 }
 
-export const imageTextPointsComponent: WebsiteComponent<EditorialComponentProps, Partial<ImageTextPointsProps>> = {
-  editorial: ImageTextPointsEdit,
-  production: ImageTextPoints,
-  editableProps: imageTextPointsDetails
-};
-
-export {ImageTextPoints, ImageTextPointsEdit}
+export { ImageTextPointsEdit };

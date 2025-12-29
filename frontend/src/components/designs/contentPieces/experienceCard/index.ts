@@ -1,6 +1,5 @@
 import ExperienceCardEdit from "./experienceCardEdit";
-import ExperienceCard from "./experienceCard.prod";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp, StandardText } from "@/types";;
 
 export const experienceCardDetails: EditableComponent = {
@@ -66,10 +65,4 @@ export const defaultExperienceCardProps: Required<Omit<ExperienceCardProps, 'arr
   items: [],
 };
 
-export const experienceCardComponent: WebsiteComponent<EditorialComponentProps, Partial<ExperienceCardProps>> = {
-  editorial: ExperienceCardEdit,
-  production: ExperienceCard,
-  editableProps: experienceCardDetails
-};
-
-export { ExperienceCard, ExperienceCardEdit };
+export { ExperienceCardEdit };

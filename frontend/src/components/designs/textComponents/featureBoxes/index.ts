@@ -1,7 +1,6 @@
 // components/featureBoxes/index.ts
-import FeatureBoxes from "./featureBoxes.prod";
 import FeatureBoxesEdit from "./featureBoxesEdit";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;
 
 export const featureBoxesDetails: EditableComponent = {
@@ -110,11 +109,5 @@ export const defaultFeatureBoxesProps: Required<Omit<FeatureBoxesProps, 'array' 
   items: [],
 };
 
-export const featureBoxesComponent: WebsiteComponent<EditorialComponentProps, Partial<FeatureBoxesProps>> = {
-  editorial: FeatureBoxesEdit,
-  production: FeatureBoxes,
-  editableProps: featureBoxesDetails,
-};
-
-export { FeatureBoxes, FeatureBoxesEdit };
+export { FeatureBoxesEdit };
 

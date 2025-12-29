@@ -1,6 +1,5 @@
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, CarouselItem } from "@/types";;
-import GridCarousel from "./gridCarousel.prod";
 import GridCarouselEdit from "./gridCarouselEdit";
 
 export const gridCarouselDetails: EditableComponent = {
@@ -100,10 +99,4 @@ export const defaultGridCarouselProps: Required<Omit<GridCarouselProps, 'items'>
   ],
 };
 
-export const gridCarouselComponent: WebsiteComponent<EditorialComponentProps, Partial<GridCarouselProps>> = {
-  editorial: GridCarouselEdit,
-  production: GridCarousel,
-  editableProps: gridCarouselDetails,
-};
-
-export { GridCarousel, GridCarouselEdit };
+export { GridCarouselEdit };

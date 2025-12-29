@@ -1,7 +1,6 @@
 import BgImageHeroEdit from "./bgImageHeroEdit";
-import BgImageHero from "./bgImageHero.prod";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
-import { BaseComponentProps, ImageProp,  } from "@/types";;
+import { EditableComponent } from "@/types/editorial";
+import { BaseComponentProps, ImageProp } from "@/types";;
 
 // EditableComponent details
 export const bgImageHeroDetails: EditableComponent = {
@@ -70,12 +69,4 @@ export const defaultBgImageHeroProps: Required<BgImageHeroProps> = {
   items: [],
 };
 
-// WebsiteComponent object combining editorial & production - use Partial<>
-export const bgImageHeroComponent: WebsiteComponent<EditorialComponentProps, Partial<BgImageHeroProps>> = {
-  editorial: BgImageHeroEdit,
-  production: BgImageHero,
-  editableProps: bgImageHeroDetails,
-};
-
-// Named exports
-export { BgImageHero, BgImageHeroEdit };
+export { BgImageHeroEdit };

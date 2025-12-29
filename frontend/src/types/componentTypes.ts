@@ -68,6 +68,7 @@ export type TitleDescriptionItem = {
     src:string,
     alt:string,
     styles?:string
+    objectCover?:boolean
   }
 
 

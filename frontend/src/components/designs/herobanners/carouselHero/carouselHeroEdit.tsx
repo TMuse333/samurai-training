@@ -20,6 +20,7 @@ const CarouselHeroEdit: React.FC<EditorialComponentProps> = ({ id }) => {
   const [componentProps, setComponentProps] = useState<CarouselHeroProps>(defaultCarouselHeroProps);
   const { setCurrentComponent, currentComponent, setAssistantMessage, LlmCurrentTextOutput, setLlmCurrentTextOutput, currentColorEdits, setCurrentColorEdits } = useComponentEditor();
   const updateComponentProps = useWebsiteStore((s) => s.updateComponentProps);
+  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
 
   const carouselItemsFromStore = useCarouselStore((s) => s.carousels[id]) || [];
   const addCarousel = useCarouselStore((s) => s.addCarousel);
@@ -76,7 +77,7 @@ const CarouselHeroEdit: React.FC<EditorialComponentProps> = ({ id }) => {
 
   const updateProp = <K extends keyof CarouselHeroProps>(key: K, value: CarouselHeroProps[K]) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(id, { [key]: value });
+    updateComponentProps(currentPageSlug, id, { [key]: value });
   };
 
   return (

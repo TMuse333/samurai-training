@@ -1,7 +1,6 @@
 // components/imageTextBox/index.ts
-import ImageTextBox from "./imageTextBox.prod";
 import ImageTextBoxEdit from "./imageTextBoxEdit";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
+import { EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;
 
 export const imageTextBoxDetails: EditableComponent = {
@@ -99,10 +98,4 @@ export interface ImageTextBoxProps extends Partial<BaseComponentProps> {
   objectContain?: boolean;
 }
 
-export const imageTextBoxComponent: WebsiteComponent<EditorialComponentProps, Partial<ImageTextBoxProps>> = {
-  editorial: ImageTextBoxEdit,
-  production: ImageTextBox,
-  editableProps: imageTextBoxDetails,
-};
-
-export { ImageTextBox, ImageTextBoxEdit };
+export { ImageTextBoxEdit };

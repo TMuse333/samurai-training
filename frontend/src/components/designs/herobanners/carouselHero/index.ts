@@ -1,7 +1,6 @@
 import CarouselHeroEdit from "./carouselHeroEdit";
-import CarouselHero from "./carouselHero.prod";
-import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
-import { BaseComponentProps, ImageProp, CarouselItem } from "@/types";;
+import { EditableComponent } from "@/types/editorial";
+import { BaseComponentProps, CarouselItem } from "@/types";;
 
 export const carouselHeroDetails: EditableComponent = {
   name: "CarouselHero",
@@ -46,10 +45,4 @@ export const defaultCarouselHeroProps: Required<Omit<CarouselHeroProps, 'items'>
   ],
 };
 
-export const carouselHeroComponent: WebsiteComponent<EditorialComponentProps, Partial<CarouselHeroProps>> = {
-  editorial: CarouselHeroEdit,
-  production: CarouselHero,
-  editableProps: carouselHeroDetails,
-};
-
-export { CarouselHeroEdit, CarouselHero };
+export { CarouselHeroEdit };
