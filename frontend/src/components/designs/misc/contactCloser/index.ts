@@ -11,6 +11,23 @@ export interface ContactCloserProps extends BaseColorProps {
   facebookUrl?: string;
 }
 
+export const defaultContactCloserProps: Required<Omit<ContactCloserProps, 'bgLayout'>> & {
+  bgLayout: { type: "solid" }
+} = {
+  title: "Ready to Get Started?",
+  description: "Contact us today to discuss your needs. We're here to help!",
+  buttonText: "Get in Touch",
+  email: "info@example.com",
+  phone: "(123) 456-7890",
+  facebookUrl: "",
+  mainColor: "#3B82F6",
+  textColor: "#000000",
+  baseBgColor: "#FFFFFF",
+  bgLayout: {
+    type: "solid",
+  } as const,
+};
+
 export const contactCloserDetails: EditableComponent = {
   name: "ContactCloser",
   details: "Simple contact section with email form and contact methods",

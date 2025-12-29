@@ -69,6 +69,6 @@ export const defaultBgImageHeroProps: Required<BgImageHeroProps> = {
   items: [],
 };
 
-//object combining editorial & production - use Partial<>
+//  object combining editorial & production - use Partial<>
 // Named exports
 export { BgImageHeroEdit };
