@@ -1,5 +1,5 @@
 import BgImageHeroEdit from "./bgImageHeroEdit";
-import BgImageHero from '"./bgImageHero.prod";
+import BgImageHero from "./bgImageHero.prod";
 import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp,  } from "@/types";;
 

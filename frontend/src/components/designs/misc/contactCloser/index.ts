@@ -1,4 +1,4 @@
-import ContactCloser from '"./contactCloser.prod";
+import ContactCloser from "./contactCloser.prod";
 import ContactCloserEdit from "./contactCloserEdit";
 import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
 import { BaseColorProps,  } from "@/types";;

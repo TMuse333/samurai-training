@@ -1,5 +1,5 @@
 // components/featureBoxes/index.ts
-import FeatureBoxes from '"./featureBoxes.prod";
+import FeatureBoxes from "./featureBoxes.prod";
 import FeatureBoxesEdit from "./featureBoxesEdit";
 import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;

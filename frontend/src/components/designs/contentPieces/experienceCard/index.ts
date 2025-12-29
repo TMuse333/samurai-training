@@ -1,5 +1,5 @@
 import ExperienceCardEdit from "./experienceCardEdit";
-import ExperienceCard from '"./experienceCard.prod";
+import ExperienceCard from "./experienceCard.prod";
 import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp, StandardText } from "@/types";;
 

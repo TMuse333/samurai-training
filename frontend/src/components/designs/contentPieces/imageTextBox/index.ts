@@ -1,5 +1,5 @@
 // components/imageTextBox/index.ts
-import ImageTextBox from '"./imageTextBox.prod";
+import ImageTextBox from "./imageTextBox.prod";
 import ImageTextBoxEdit from "./imageTextBoxEdit";
 import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;

@@ -1,5 +1,5 @@
 import CarouselHeroEdit from "./carouselHeroEdit";
-import CarouselHero from '"./carouselHero.prod";
+import CarouselHero from "./carouselHero.prod";
 import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp, CarouselItem } from "@/types";;
 

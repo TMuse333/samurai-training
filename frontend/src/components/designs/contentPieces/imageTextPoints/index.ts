@@ -1,7 +1,7 @@
 // components/imageTextPoints/index.ts
 import { WebsiteComponent, EditorialComponentProps, EditableComponent } from "@/types/editorial";
 import { BaseComponentProps, ImageProp } from "@/types";;
-import ImageTextPoints from '"./imageTextPoints.prod";
+import ImageTextPoints from "./imageTextPoints.prod";
 import ImageTextPointsEdit from "./imageTextPointsEdit";
 
 export const imageTextPointsDetails: EditableComponent = {
