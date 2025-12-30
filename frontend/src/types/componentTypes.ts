@@ -9,7 +9,7 @@ export type ComponentCategory =
   | "testimonial"
   | "navbar"
   | "footer"
-  | "miscellaneous"
+  | "misc"
   | "carousel";
 
 export type TitleDescriptionItem = {
