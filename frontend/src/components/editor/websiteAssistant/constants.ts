@@ -15,6 +15,7 @@ import { contactCloserDetails } from "@/components/designs/misc/contactCloser";
 import { bgImageHeroDetails } from "@/components/designs/herobanners/bgImageHero";
 import { imageTextPointsDetails } from "@/components/designs/contentPieces/imageTextPoints";
 import { processStepsDetails } from "@/components/designs/textComponents/processSteps";
+import { uniqueValuePropositionDetails } from "@/components/designs/textComponents/uniqueValueProposition";
 import { imageTextBoxDetails } from "@/components/designs/contentPieces/imageTextBox";
 import { closingStatementDetails } from "@/components/designs/contentPieces/closingStatement";
 
@@ -73,6 +74,7 @@ export const COMPONENT_DETAILS_MAP: Record<string, EditableComponent> = {
   bgImageHero: bgImageHeroDetails,
   imageTextPoints: imageTextPointsDetails,
   processSteps: processStepsDetails,
+  uniqueValueProposition: uniqueValuePropositionDetails,
   imageTextBox: imageTextBoxDetails,
   closingStatement: closingStatementDetails,
 };

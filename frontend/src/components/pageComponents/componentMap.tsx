@@ -13,6 +13,7 @@ import ContactCloserEdit from "@/components/designs/misc/contactCloser/contactCl
 import BgImageHeroEdit from "@/components/designs/herobanners/bgImageHero/bgImageHeroEdit";
 import ImageTextPointsEdit from "@/components/designs/contentPieces/imageTextPoints/imageTextPointsEdit";
 import ProcessStepsEdit from "@/components/designs/textComponents/processSteps/processStepsEdit";
+import UniqueValuePropositionEdit from "@/components/designs/textComponents/uniqueValueProposition/uniqueValuePropositionEdit";
 import ImageTextBoxEdit from "@/components/designs/contentPieces/imageTextBox/imageTextBoxEdit";
 import ClosingStatementEdit from "@/components/designs/contentPieces/closingStatement/closingStatementEdit";
 
@@ -28,6 +29,7 @@ export const componentMap: Record<string, React.ComponentType<EditorialComponent
   bgImageHero: BgImageHeroEdit,
   imageTextPoints: ImageTextPointsEdit,
   processSteps: ProcessStepsEdit,
+  uniqueValueProposition: UniqueValuePropositionEdit,
   imageTextBox: ImageTextBoxEdit,
   closingStatement: ClosingStatementEdit,
 };
