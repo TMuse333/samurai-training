@@ -182,8 +182,51 @@ export const createWebsiteDataSlice: StateCreator<
       const data = await response.json();
       console.log("✅ [websiteDataSlice] Loaded from GitHub:", {
         hasColorTheme: !!data.websiteData?.colorTheme,
-        pagesCount: data.websiteData?.pages?.length || 0,
+        pagesCount: Array.isArray(data.websiteData?.pages) 
+          ? data.websiteData.pages.length 
+          : Object.keys(data.websiteData?.pages || {}).length,
+        pagesIsArray: Array.isArray(data.websiteData?.pages),
       });
+
+      // Transform pages from array to object if needed
+      let pagesObject: Record<string, WebsitePage> = {};
+      if (Array.isArray(data.websiteData?.pages)) {
+        // Convert array to object keyed by slug with intelligent slug generation
+        data.websiteData.pages.forEach((page: WebsitePage, index: number) => {
+          let slug: string;
+
+          // Priority 1: Use existing slug if present
+          if (page.slug) {
+            slug = page.slug;
+          }
+          // Priority 2: Convert pageName to slug
+          else if (page.pageName) {
+            slug = page.pageName
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, '-')
+              .replace(/^-|-$/g, '');
+          }
+          // Priority 3: Use index-based slug
+          else {
+            slug = index === 0 ? 'index' : `page-${index}`;
+          }
+
+          // Ensure uniqueness (handle duplicates)
+          let uniqueSlug = slug;
+          let counter = 1;
+          while (pagesObject[uniqueSlug]) {
+            uniqueSlug = `${slug}-${counter}`;
+            counter++;
+          }
+
+          // Add the page with the unique slug
+          pagesObject[uniqueSlug] = { ...page, slug: uniqueSlug };
+        });
+        console.log("🔄 [websiteDataSlice] Converted pages array to object:", Object.keys(pagesObject));
+      } else if (data.websiteData?.pages && typeof data.websiteData.pages === 'object') {
+        // Already an object, use as-is
+        pagesObject = data.websiteData.pages;
+      }
 
       // Transform to WebsiteMaster
       const websiteMaster: WebsiteMaster = {
@@ -191,7 +234,7 @@ export const createWebsiteDataSlice: StateCreator<
         templateName: data.websiteData?.templateName || "Default Template",
         formData: data.websiteData?.formData || {},
         status: data.websiteData?.status || "in-progress",
-        pages: data.websiteData?.pages || [],
+        pages: pagesObject,
         colorTheme: data.websiteData?.colorTheme,
         seoMetadata: data.websiteData?.seoMetadata,
         currentVersionNumber: versionNumber || data.websiteData?.currentVersionNumber,

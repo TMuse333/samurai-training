@@ -46,11 +46,11 @@ if (typeof window === 'undefined') {
     );
   }
 
-  // console.log("✅ GitHub config initialized:", {
-  //   repoOwner: GITHUB_CONFIG.REPO_OWNER,
-  //   repoName: GITHUB_CONFIG.REPO_NAME,
-  //   currentBranch: GITHUB_CONFIG.CURRENT_BRANCH,
-  //   productionBranch: GITHUB_CONFIG.PRODUCTION_BRANCH,
-  //   hasGitHubToken: !!GITHUB_CONFIG.GITHUB_TOKEN,
-  // });
+  console.log("✅ GitHub config initialized:", {
+    repoOwner: GITHUB_CONFIG.REPO_OWNER,
+    repoName: GITHUB_CONFIG.REPO_NAME,
+    currentBranch: GITHUB_CONFIG.CURRENT_BRANCH,
+    productionBranch: GITHUB_CONFIG.PRODUCTION_BRANCH,
+    hasGitHubToken: !!GITHUB_CONFIG.GITHUB_TOKEN,
+  });
 }
