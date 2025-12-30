@@ -24,6 +24,7 @@ const Testimonials3Edit: React.FC<EditorialComponentProps> = ({ id }) => {
   const { setCurrentComponent, currentComponent, setAssistantMessage, LlmCurrentTextOutput, setLlmCurrentTextOutput, currentColorEdits, setCurrentColorEdits } = useComponentEditor();
 
   const updateComponentProps = useWebsiteStore((state) => state.updateComponentProps);
+  const currentPageSlug = useWebsiteStore((state) => state.currentPageSlug);
 
   // Merge with defaults and cast to Required<Testimonials3Props>
   const propsWithDefaults = { ...defaultTestimonials3Props, ...componentProps } as Required<Testimonials3Props>;
@@ -50,7 +51,7 @@ const Testimonials3Edit: React.FC<EditorialComponentProps> = ({ id }) => {
 
   const updateProp = <K extends keyof Testimonials3Props>(key: K, value: Testimonials3Props[K]) => {
     setComponentProps((prev) => ({ ...prev, [key]: value }));
-    updateComponentProps(id, { [key]: value });
+    updateComponentProps(currentPageSlug, id, { [key]: value });
   };
 
   // REFACTORED FUNCTION: Uses safeTestimonials and TestimonialItem type

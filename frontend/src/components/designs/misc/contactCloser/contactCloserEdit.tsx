@@ -68,8 +68,23 @@ export const ContactCloserEdit: React.FC<EditorialComponentProps> = ({ id }) => 
   return (
     <div onClick={onClick} className="space-y-4 cursor-pointer">
       {/* Preview */}
-      <div className="border-2 border-gray-200 rounded-lg overflow-hidden">
-        <ContactCloser {...propsWithDefaults} />
+      <div className="border-2 border-gray-200 rounded-lg overflow-hidden p-8" style={{ backgroundColor: propsWithDefaults.baseBgColor }}>
+        <h2 className="text-2xl font-bold mb-4" style={{ color: propsWithDefaults.textColor }}>
+          {propsWithDefaults.title}
+        </h2>
+        <p className="mb-4" style={{ color: propsWithDefaults.textColor }}>
+          {propsWithDefaults.description}
+        </p>
+        <div className="space-y-2">
+          <p style={{ color: propsWithDefaults.textColor }}>Email: {propsWithDefaults.email}</p>
+          <p style={{ color: propsWithDefaults.textColor }}>Phone: {propsWithDefaults.phone}</p>
+        </div>
+        <button
+          className="mt-4 px-6 py-2 rounded"
+          style={{ backgroundColor: propsWithDefaults.mainColor, color: '#fff' }}
+        >
+          {propsWithDefaults.buttonText}
+        </button>
       </div>
     </div>
   );
