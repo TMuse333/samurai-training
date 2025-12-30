@@ -34,7 +34,16 @@
             "title": "Unlock The Samurai Way",
             "description": "Learn to excel in a competitive world by mastering the art of focus and information application.",
             "buttonText": "Get Started",
-            "array": []
+            "array": [],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -74,7 +83,16 @@
                 "description": "Join a network of like-minded learners and professionals.",
                 "type": "StandardText"
               }
-            ]
+            ],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -108,7 +126,16 @@
                 "description": "Receive continuous assistance throughout your learning process.",
                 "type": "StandardText"
               }
-            ]
+            ],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -141,7 +168,16 @@
                 "description": "Connect with experts and peers to expand your horizons.",
                 "type": "StandardText"
               }
-            ]
+            ],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -174,7 +210,16 @@
                 "description": "Absolutely! Our programs are designed for flexible learning.",
                 "type": "StandardText"
               }
-            ]
+            ],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -187,7 +232,16 @@
             "subTitle": "Explore Our Offerings",
             "title": "Diverse Learning Paths",
             "description": "Browse through our various educational paths designed for modern learners.",
-            "array": []
+            "array": [],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -216,7 +270,16 @@
                 "quote": "The techniques I learned were invaluable for my career."
               }
             ],
-            "array": []
+            "array": [],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -232,10 +295,21 @@
             "email": "info@samurailearning.com",
             "phone": "+1-800-555-0199",
             "facebookUrl": "https://facebook.com/samurailearning",
-            "array": []
+            "array": [],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         }
-      ]
+      ],
+      "pageName": "Home",
+      "slug": "index"
     },
     {
       "components": [
@@ -248,7 +322,16 @@
           "props": {
             "title": "Master the Samurai Way of Learning",
             "description": "Unlock your potential in a competitive landscape through focused learning and technology.",
-            "array": []
+            "array": [],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -277,7 +360,16 @@
                 "description": "Utilize technology to enhance your learning experience and efficiency.",
                 "type": "StandardText"
               }
-            ]
+            ],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -311,7 +403,16 @@
                 "description": "Continuously evaluate your progress and refine your approach.",
                 "type": "StandardText"
               }
-            ]
+            ],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -324,7 +425,16 @@
             "subTitle": "Explore Our Resources",
             "title": "Visual Learning Tools",
             "description": "Browse our collection of visual resources designed to support your learning journey.",
-            "array": []
+            "array": [],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -352,7 +462,16 @@
                 "description": "Leverage advanced technology to streamline your learning process.",
                 "type": "StandardText"
               }
-            ]
+            ],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -380,10 +499,21 @@
               }
             ],
             "title": "Our Key Features",
-            "description": "Discover the features that set our learning platform apart."
+            "description": "Discover the features that set our learning platform apart.",
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         }
-      ]
+      ],
+      "pageName": "Page-1",
+      "slug": "page-1"
     },
     {
       "components": [
@@ -397,7 +527,16 @@
             "title": "Master the Samurai Mindset for Success",
             "description": "Unlock the secrets of focus and information mastery in today's competitive world. Embrace the way of the samurai to thrive in a technology-driven society.",
             "buttonText": "Get Started",
-            "array": []
+            "array": [],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -431,7 +570,16 @@
                 "description": "Join a network of like-minded individuals on the same path.",
                 "type": "StandardText"
               }
-            ]
+            ],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -464,7 +612,16 @@
                 "description": "Monitor your advancement and celebrate your milestones along the way.",
                 "type": "StandardText"
               }
-            ]
+            ],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         },
         {
@@ -476,16 +633,24 @@
           "props": {
             "title": "Transform Your Learning Today!",
             "description": "Join us on this journey to unlock your potential and thrive in a competitive landscape. With our guidance and resources, you'll master the art of learning and leverage technology to achieve your goals. Start your path to success now!",
-            "array": []
+            "array": [],
+            "mainColor": "#3B82F6",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
           }
         }
-      ]
+      ],
+      "pageName": "Page-2",
+      "slug": "page-2"
     }
   ],
   "status": "draft",
-  "createdAt": "2025-12-28T21:33:24.189Z",
-  "updatedAt": "2025-12-30T02:24:51.904Z",
-  "_id": "6951a224ba75fbcbb94d50a6",
   "owner": "focusflowsoftware@gmail.com",
   "websiteName": "Unnamed Website",
   "currentVersionNumber": 0,
@@ -493,1139 +658,6 @@
   "initialPaymentRefunded": false,
   "deploymentPaymentCompleted": false,
   "deploymentPaymentRefunded": false,
-  "versions": [
-    {
-      "versionNumber": 0,
-      "websiteData": {
-        "owner": "focusflowsoftware@gmail.com",
-        "templateName": "Professional Three Page",
-        "websiteName": "Unnamed Website",
-        "formData": {
-          "fastTrackDescription": {
-            "answer": "learning how to learn the way of the samurai time for the modern competitive landscape. Understand the concept of its a winner take all society due to the power of technology, your ability to focus and extract and apply relevant information into owning software people pay to use is key"
-          },
-          "mainColor": {
-            "answer": "#3B82F6"
-          },
-          "baseBgColor": {
-            "answer": "#000000"
-          },
-          "textColor": {
-            "answer": "#ffffff"
-          },
-          "bgLayoutType": {
-            "answer": "radial"
-          },
-          "additionalInfo": {
-            "answer": "learning how to learn the way of the samurai time for the modern competitive landscape. Understand the concept of its a winner take all society due to the power of technology, your ability to focus and extract and apply relevant information into owning software people pay to use is key"
-          }
-        },
-        "pages": [
-          {
-            "components": [
-              {
-                "id": "carouselHero-0",
-                "type": "carouselHero",
-                "order": 0,
-                "context": "A herobanner that uses a slide show of images",
-                "componentCategory": "hero",
-                "props": {
-                  "subTitle": "Master Your Skills",
-                  "title": "Unlock The Samurai Way",
-                  "description": "Learn to excel in a competitive world by mastering the art of focus and information application.",
-                  "buttonText": "Get Started",
-                  "array": [],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "experienceCard-1",
-                "type": "experienceCard",
-                "order": 1,
-                "context": "A card to display key experiences, features, or highlights with image, text, and list items.",
-                "componentCategory": "contentPiece",
-                "props": {
-                  "title": "Transformative Learning Experience",
-                  "description": "Discover our unique approach to learning that combines ancient wisdom with modern technology, enhancing your ability to thrive.",
-                  "subTitle": "Key Features",
-                  "buttonText": "Learn More",
-                  "array": [
-                    {
-                      "title": "Focused Learning",
-                      "description": "Sharpen your focus for better retention and application of knowledge.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Ancient Strategies",
-                      "description": "Utilize time-tested samurai techniques for modern challenges.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Technology Integration",
-                      "description": "Leverage tech tools to enhance your learning efficiency.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Practical Applications",
-                      "description": "Apply what you learn to create valuable software solutions.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Community Support",
-                      "description": "Join a network of like-minded learners and professionals.",
-                      "type": "StandardText"
-                    }
-                  ],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "textAndList-2",
-                "type": "textAndList",
-                "order": 2,
-                "context": "Provides a bulleted list of features/benefits",
-                "componentCategory": "textComponent",
-                "props": {
-                  "subTitle": "Why Choose Us?",
-                  "title": "Empower Your Learning Journey",
-                  "description": "Our methods are designed to help you succeed in today’s fast-paced world.",
-                  "textArray": [
-                    {
-                      "title": "Innovative Techniques",
-                      "description": "We teach strategies that are effective for modern learners."
-                    },
-                    {
-                      "title": "Expert Guidance",
-                      "description": "Learn from seasoned professionals with real-world experience."
-                    },
-                    {
-                      "title": "Flexible Learning",
-                      "description": "Adapt our programs to fit your unique lifestyle and needs."
-                    },
-                    {
-                      "title": "Ongoing Support",
-                      "description": "Receive continuous assistance throughout your learning process."
-                    }
-                  ],
-                  "array": [
-                    {
-                      "title": "Innovative Techniques",
-                      "description": "We teach strategies that are effective for modern learners.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Expert Guidance",
-                      "description": "Learn from seasoned professionals with real-world experience.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Flexible Learning",
-                      "description": "Adapt our programs to fit your unique lifestyle and needs.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Ongoing Support",
-                      "description": "Receive continuous assistance throughout your learning process.",
-                      "type": "StandardText"
-                    }
-                  ],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "featureBoxes-3",
-                "type": "featureBoxes",
-                "order": 3,
-                "context": "A grid of feature boxes, each displaying an image, title, and description. Perfect for showcasing features, services, or benefits.",
-                "componentCategory": "textComponent",
-                "props": {
-                  "title": "Our Core Features",
-                  "description": "Explore the powerful features that set us apart in the learning landscape.",
-                  "array": [
-                    {
-                      "title": "Personalized Learning",
-                      "description": "Tailor your learning experience to match your goals.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Interactive Modules",
-                      "description": "Engage with dynamic content that keeps you motivated.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Real-World Projects",
-                      "description": "Work on projects that have practical applications in the industry.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Networking Opportunities",
-                      "description": "Connect with experts and peers to expand your horizons.",
-                      "type": "StandardText"
-                    }
-                  ],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "accordion-4",
-                "type": "accordion",
-                "order": 4,
-                "context": "An interactive accordion component that displays a list of items with expandable descriptions. Supports pagination, intro text, and optional link button.",
-                "componentCategory": "textComponent",
-                "props": {
-                  "title": "Frequently Asked Questions",
-                  "description": "Find answers to common questions about our programs and services.",
-                  "array": [
-                    {
-                      "title": "What is the Samurai Learning Method?",
-                      "description": "It combines focus techniques with practical applications for effective learning.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "How long does the program last?",
-                      "description": "Programs vary, but most can be completed in 3-6 months.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Is there a money-back guarantee?",
-                      "description": "Yes, we offer a 30-day satisfaction guarantee.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Can I learn at my own pace?",
-                      "description": "Absolutely! Our programs are designed for flexible learning.",
-                      "type": "StandardText"
-                    }
-                  ],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "gridCarousel-5",
-                "type": "gridCarousel",
-                "order": 5,
-                "context": "A carousel used for displaying many images at once, with each one being expandable",
-                "componentCategory": "carousel",
-                "props": {
-                  "subTitle": "Explore Our Offerings",
-                  "title": "Diverse Learning Paths",
-                  "description": "Browse through our various educational paths designed for modern learners.",
-                  "array": [],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "testimonials3-6",
-                "type": "testimonials3",
-                "order": 6,
-                "context": "Showcases previous testimonials",
-                "componentCategory": "testimonial",
-                "props": {
-                  "title": "What Our Learners Say",
-                  "description": "Hear from those who transformed their lives through our programs.",
-                  "testimonials": [
-                    {
-                      "name": "John Doe",
-                      "role": "Software Developer",
-                      "quote": "This program changed my approach to learning and work!"
-                    },
-                    {
-                      "name": "Jane Smith",
-                      "role": "Entrepreneur",
-                      "quote": "I gained skills that directly helped my business grow."
-                    },
-                    {
-                      "name": "Mark Lee",
-                      "role": "Project Manager",
-                      "quote": "The techniques I learned were invaluable for my career."
-                    }
-                  ],
-                  "array": [],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "contactCloser-7",
-                "type": "contactCloser",
-                "order": 7,
-                "context": "Simple contact section with email form and contact methods",
-                "componentCategory": "misc",
-                "props": {
-                  "title": "Get In Touch",
-                  "description": "Have questions? We're here to help you on your learning journey.",
-                  "buttonText": "Send Message",
-                  "email": "info@samurailearning.com",
-                  "phone": "+1-800-555-0199",
-                  "facebookUrl": "https://facebook.com/samurailearning",
-                  "array": [],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              }
-            ],
-            "text": [
-              {
-                "componentId": "carouselHero-0",
-                "componentType": "carouselHero",
-                "text": {
-                  "title": "Unlock The Samurai Way",
-                  "description": "Learn to excel in a competitive world by mastering the art of focus and information application.",
-                  "subTitle": "Master Your Skills",
-                  "buttonText": "Get Started",
-                  "array": []
-                }
-              },
-              {
-                "componentId": "experienceCard-1",
-                "componentType": "experienceCard",
-                "text": {
-                  "title": "Transformative Learning Experience",
-                  "description": "Discover our unique approach to learning that combines ancient wisdom with modern technology, enhancing your ability to thrive.",
-                  "subTitle": "Key Features",
-                  "buttonText": "Learn More",
-                  "array": [
-                    {
-                      "type": "StandardText",
-                      "title": "Focused Learning",
-                      "description": "Sharpen your focus for better retention and application of knowledge."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Ancient Strategies",
-                      "description": "Utilize time-tested samurai techniques for modern challenges."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Technology Integration",
-                      "description": "Leverage tech tools to enhance your learning efficiency."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Practical Applications",
-                      "description": "Apply what you learn to create valuable software solutions."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Community Support",
-                      "description": "Join a network of like-minded learners and professionals."
-                    }
-                  ]
-                }
-              },
-              {
-                "componentId": "textAndList-2",
-                "componentType": "textAndList",
-                "text": {
-                  "title": "Empower Your Learning Journey",
-                  "description": "Our methods are designed to help you succeed in today’s fast-paced world.",
-                  "subTitle": "Why Choose Us?",
-                  "array": [
-                    {
-                      "type": "StandardText",
-                      "title": "Innovative Techniques",
-                      "description": "We teach strategies that are effective for modern learners."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Expert Guidance",
-                      "description": "Learn from seasoned professionals with real-world experience."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Flexible Learning",
-                      "description": "Adapt our programs to fit your unique lifestyle and needs."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Ongoing Support",
-                      "description": "Receive continuous assistance throughout your learning process."
-                    }
-                  ]
-                }
-              },
-              {
-                "componentId": "featureBoxes-3",
-                "componentType": "featureBoxes",
-                "text": {
-                  "title": "Our Core Features",
-                  "description": "Explore the powerful features that set us apart in the learning landscape.",
-                  "array": [
-                    {
-                      "type": "StandardText",
-                      "title": "Personalized Learning",
-                      "description": "Tailor your learning experience to match your goals."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Interactive Modules",
-                      "description": "Engage with dynamic content that keeps you motivated."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Real-World Projects",
-                      "description": "Work on projects that have practical applications in the industry."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Networking Opportunities",
-                      "description": "Connect with experts and peers to expand your horizons."
-                    }
-                  ]
-                }
-              },
-              {
-                "componentId": "accordion-4",
-                "componentType": "accordion",
-                "text": {
-                  "title": "Frequently Asked Questions",
-                  "description": "Find answers to common questions about our programs and services.",
-                  "array": [
-                    {
-                      "type": "StandardText",
-                      "title": "What is the Samurai Learning Method?",
-                      "description": "It combines focus techniques with practical applications for effective learning."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "How long does the program last?",
-                      "description": "Programs vary, but most can be completed in 3-6 months."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Is there a money-back guarantee?",
-                      "description": "Yes, we offer a 30-day satisfaction guarantee."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Can I learn at my own pace?",
-                      "description": "Absolutely! Our programs are designed for flexible learning."
-                    }
-                  ]
-                }
-              },
-              {
-                "componentId": "gridCarousel-5",
-                "componentType": "gridCarousel",
-                "text": {
-                  "title": "Diverse Learning Paths",
-                  "description": "Browse through our various educational paths designed for modern learners.",
-                  "subTitle": "Explore Our Offerings",
-                  "array": []
-                }
-              },
-              {
-                "componentId": "testimonials3-6",
-                "componentType": "testimonials3",
-                "text": {
-                  "title": "What Our Learners Say",
-                  "description": "Hear from those who transformed their lives through our programs.",
-                  "array": []
-                }
-              },
-              {
-                "componentId": "contactCloser-7",
-                "componentType": "contactCloser",
-                "text": {
-                  "title": "Get In Touch",
-                  "description": "Have questions? We're here to help you on your learning journey.",
-                  "buttonText": "Send Message",
-                  "array": []
-                }
-              }
-            ]
-          },
-          {
-            "components": [
-              {
-                "id": "bgImageHero-0",
-                "type": "bgImageHero",
-                "order": 0,
-                "context": "This herobanner uses a darkened full screen image as its background with an overlay of title and description",
-                "componentCategory": "hero",
-                "props": {
-                  "title": "Master the Samurai Way of Learning",
-                  "description": "Unlock your potential in a competitive landscape through focused learning and technology.",
-                  "array": [],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "imageTextPoints-1",
-                "type": "imageTextPoints",
-                "order": 1,
-                "context": "Shows visual steps or key points with images",
-                "componentCategory": "imageText",
-                "props": {
-                  "title": "Key Learning Steps",
-                  "description": "Explore essential steps to refine your learning strategy.",
-                  "buttonText": "Learn More",
-                  "textArray": [
-                    {
-                      "title": "Understand the Samurai Philosophy",
-                      "description": "Learn the principles that guide effective learning and mastery."
-                    },
-                    {
-                      "title": "Focus on Relevant Information",
-                      "description": "Identify and extract key information that drives success."
-                    },
-                    {
-                      "title": "Apply Software Solutions",
-                      "description": "Utilize technology to enhance your learning experience and efficiency."
-                    }
-                  ],
-                  "array": [
-                    {
-                      "title": "Understand the Samurai Philosophy",
-                      "description": "Learn the principles that guide effective learning and mastery.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Focus on Relevant Information",
-                      "description": "Identify and extract key information that drives success.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Apply Software Solutions",
-                      "description": "Utilize technology to enhance your learning experience and efficiency.",
-                      "type": "StandardText"
-                    }
-                  ],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "processSteps-2",
-                "type": "processSteps",
-                "order": 2,
-                "context": "This component provides a vertical line down the middle of the screen where each step of the process appears on alternating sides",
-                "componentCategory": "textComponent",
-                "props": {
-                  "subTitle": "Our Learning Approach",
-                  "title": "Steps to Mastery in Learning",
-                  "description": "Follow our structured process designed to elevate your learning capabilities.",
-                  "textArray": [
-                    {
-                      "title": "Step 1: Embrace the Mindset",
-                      "description": "Adopt the samurai mindset for disciplined and focused learning."
-                    },
-                    {
-                      "title": "Step 2: Identify Key Skills",
-                      "description": "Determine the skills crucial for success in today's tech-driven world."
-                    },
-                    {
-                      "title": "Step 3: Implement Effective Techniques",
-                      "description": "Use proven techniques to enhance your learning efficiency."
-                    },
-                    {
-                      "title": "Step 4: Review and Adjust",
-                      "description": "Continuously evaluate your progress and refine your approach."
-                    }
-                  ],
-                  "array": [
-                    {
-                      "title": "Step 1: Embrace the Mindset",
-                      "description": "Adopt the samurai mindset for disciplined and focused learning.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Step 2: Identify Key Skills",
-                      "description": "Determine the skills crucial for success in today's tech-driven world.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Step 3: Implement Effective Techniques",
-                      "description": "Use proven techniques to enhance your learning efficiency.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Step 4: Review and Adjust",
-                      "description": "Continuously evaluate your progress and refine your approach.",
-                      "type": "StandardText"
-                    }
-                  ],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "gridCarousel-3",
-                "type": "gridCarousel",
-                "order": 3,
-                "context": "A carousel used for displaying many images at once, with each one being expandable",
-                "componentCategory": "carousel",
-                "props": {
-                  "subTitle": "Explore Our Resources",
-                  "title": "Visual Learning Tools",
-                  "description": "Browse our collection of visual resources designed to support your learning journey.",
-                  "array": [],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "uniqueValueProposition-4",
-                "type": "uniqueValueProposition",
-                "order": 4,
-                "context": "A 3 column grid where you can display unique value propositions about your service",
-                "componentCategory": "textComponent",
-                "props": {
-                  "subTitle": "Why Choose Us",
-                  "title": "Unique Learning Advantages",
-                  "textArray": [
-                    {
-                      "title": "Tailored Learning Paths",
-                      "description": "Customize your learning experience to match your unique needs."
-                    },
-                    {
-                      "title": "Expert Guidance",
-                      "description": "Receive mentorship from experienced professionals in the field."
-                    },
-                    {
-                      "title": "Cutting-Edge Tools",
-                      "description": "Leverage advanced technology to streamline your learning process."
-                    }
-                  ],
-                  "array": [
-                    {
-                      "title": "Tailored Learning Paths",
-                      "description": "Customize your learning experience to match your unique needs.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Expert Guidance",
-                      "description": "Receive mentorship from experienced professionals in the field.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Cutting-Edge Tools",
-                      "description": "Leverage advanced technology to streamline your learning process.",
-                      "type": "StandardText"
-                    }
-                  ],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "featureBoxes-5",
-                "type": "featureBoxes",
-                "order": 5,
-                "context": "A grid of feature boxes, each displaying an image, title, and description. Perfect for showcasing features, services, or benefits.",
-                "componentCategory": "textComponent",
-                "props": {
-                  "array": [
-                    {
-                      "title": "Interactive Workshops",
-                      "description": "Participate in hands-on workshops for practical learning.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Comprehensive Resources",
-                      "description": "Access a wide range of materials to support your learning.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Community Support",
-                      "description": "Join a vibrant community of learners and share insights.",
-                      "type": "StandardText"
-                    }
-                  ],
-                  "title": "Our Key Features",
-                  "description": "Discover the features that set our learning platform apart.",
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              }
-            ],
-            "text": [
-              {
-                "componentId": "bgImageHero-0",
-                "componentType": "bgImageHero",
-                "text": {
-                  "title": "Master the Samurai Way of Learning",
-                  "description": "Unlock your potential in a competitive landscape through focused learning and technology.",
-                  "array": []
-                }
-              },
-              {
-                "componentId": "imageTextPoints-1",
-                "componentType": "imageTextPoints",
-                "text": {
-                  "title": "Key Learning Steps",
-                  "description": "Explore essential steps to refine your learning strategy.",
-                  "buttonText": "Learn More",
-                  "array": [
-                    {
-                      "type": "StandardText",
-                      "title": "Understand the Samurai Philosophy",
-                      "description": "Learn the principles that guide effective learning and mastery."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Focus on Relevant Information",
-                      "description": "Identify and extract key information that drives success."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Apply Software Solutions",
-                      "description": "Utilize technology to enhance your learning experience and efficiency."
-                    }
-                  ]
-                }
-              },
-              {
-                "componentId": "processSteps-2",
-                "componentType": "processSteps",
-                "text": {
-                  "title": "Steps to Mastery in Learning",
-                  "description": "Follow our structured process designed to elevate your learning capabilities.",
-                  "subTitle": "Our Learning Approach",
-                  "array": [
-                    {
-                      "type": "StandardText",
-                      "title": "Step 1: Embrace the Mindset",
-                      "description": "Adopt the samurai mindset for disciplined and focused learning."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Step 2: Identify Key Skills",
-                      "description": "Determine the skills crucial for success in today's tech-driven world."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Step 3: Implement Effective Techniques",
-                      "description": "Use proven techniques to enhance your learning efficiency."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Step 4: Review and Adjust",
-                      "description": "Continuously evaluate your progress and refine your approach."
-                    }
-                  ]
-                }
-              },
-              {
-                "componentId": "gridCarousel-3",
-                "componentType": "gridCarousel",
-                "text": {
-                  "title": "Visual Learning Tools",
-                  "description": "Browse our collection of visual resources designed to support your learning journey.",
-                  "subTitle": "Explore Our Resources",
-                  "array": []
-                }
-              },
-              {
-                "componentId": "uniqueValueProposition-4",
-                "componentType": "uniqueValueProposition",
-                "text": {
-                  "title": "Unique Learning Advantages",
-                  "subTitle": "Why Choose Us",
-                  "array": [
-                    {
-                      "type": "StandardText",
-                      "title": "Tailored Learning Paths",
-                      "description": "Customize your learning experience to match your unique needs."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Expert Guidance",
-                      "description": "Receive mentorship from experienced professionals in the field."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Cutting-Edge Tools",
-                      "description": "Leverage advanced technology to streamline your learning process."
-                    }
-                  ]
-                }
-              },
-              {
-                "componentId": "featureBoxes-5",
-                "componentType": "featureBoxes",
-                "text": {
-                  "title": "Our Key Features",
-                  "description": "Discover the features that set our learning platform apart.",
-                  "array": [
-                    {
-                      "type": "StandardText",
-                      "title": "Interactive Workshops",
-                      "description": "Participate in hands-on workshops for practical learning."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Comprehensive Resources",
-                      "description": "Access a wide range of materials to support your learning."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Community Support",
-                      "description": "Join a vibrant community of learners and share insights."
-                    }
-                  ]
-                }
-              }
-            ]
-          },
-          {
-            "components": [
-              {
-                "id": "imageTextBox-0",
-                "type": "imageTextBox",
-                "order": 0,
-                "context": "Highlights a product or service with image + text",
-                "componentCategory": "imageText",
-                "props": {
-                  "title": "Master the Samurai Mindset for Success",
-                  "description": "Unlock the secrets of focus and information mastery in today's competitive world. Embrace the way of the samurai to thrive in a technology-driven society.",
-                  "buttonText": "Get Started",
-                  "array": [],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "textAndList-1",
-                "type": "textAndList",
-                "order": 1,
-                "context": "Provides a bulleted list of features/benefits",
-                "componentCategory": "textComponent",
-                "props": {
-                  "subTitle": "Why Choose Us?",
-                  "title": "Empower Your Learning Journey",
-                  "description": "Our unique approach combines ancient wisdom with modern strategies to enhance your skills.",
-                  "textArray": [
-                    {
-                      "title": "Focused Learning",
-                      "description": "Learn to concentrate on what truly matters in a fast-paced world."
-                    },
-                    {
-                      "title": "Practical Application",
-                      "description": "Transform knowledge into actionable skills for real-world success."
-                    },
-                    {
-                      "title": "Technology Integration",
-                      "description": "Utilize cutting-edge tools to enhance your learning experience."
-                    },
-                    {
-                      "title": "Community Support",
-                      "description": "Join a network of like-minded individuals on the same path."
-                    }
-                  ],
-                  "array": [
-                    {
-                      "title": "Focused Learning",
-                      "description": "Learn to concentrate on what truly matters in a fast-paced world.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Practical Application",
-                      "description": "Transform knowledge into actionable skills for real-world success.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Technology Integration",
-                      "description": "Utilize cutting-edge tools to enhance your learning experience.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Community Support",
-                      "description": "Join a network of like-minded individuals on the same path.",
-                      "type": "StandardText"
-                    }
-                  ],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "featureBoxes-2",
-                "type": "featureBoxes",
-                "order": 2,
-                "context": "A grid of feature boxes, each displaying an image, title, and description. Perfect for showcasing features, services, or benefits.",
-                "componentCategory": "textComponent",
-                "props": {
-                  "title": "Our Key Features",
-                  "description": "Discover the benefits that set us apart and drive your success.",
-                  "array": [
-                    {
-                      "title": "Expert Guidance",
-                      "description": "Learn from experienced mentors who are experts in their fields.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Customized Programs",
-                      "description": "Tailor your learning experience to suit your unique needs and goals.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Interactive Learning",
-                      "description": "Engage with dynamic content that keeps you motivated and inspired.",
-                      "type": "StandardText"
-                    },
-                    {
-                      "title": "Progress Tracking",
-                      "description": "Monitor your advancement and celebrate your milestones along the way.",
-                      "type": "StandardText"
-                    }
-                  ],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              },
-              {
-                "id": "closingStatement-3",
-                "type": "closingStatement",
-                "order": 3,
-                "context": "Final powerful message with logo",
-                "componentCategory": "contentPiece",
-                "props": {
-                  "title": "Transform Your Learning Today!",
-                  "description": "Join us on this journey to unlock your potential and thrive in a competitive landscape. With our guidance and resources, you'll master the art of learning and leverage technology to achieve your goals. Start your path to success now!",
-                  "array": [],
-                  "mainColor": "#3B82F6",
-                  "textColor": "#ffffff",
-                  "baseBgColor": "#000000",
-                  "bgLayout": {
-                    "type": "radial",
-                    "radialSize": "125% 125%",
-                    "radialPosition": "50% 0%",
-                    "radialBaseStop": 50
-                  }
-                }
-              }
-            ],
-            "text": [
-              {
-                "componentId": "imageTextBox-0",
-                "componentType": "imageTextBox",
-                "text": {
-                  "title": "Master the Samurai Mindset for Success",
-                  "description": "Unlock the secrets of focus and information mastery in today's competitive world. Embrace the way of the samurai to thrive in a technology-driven society.",
-                  "buttonText": "Get Started",
-                  "array": []
-                }
-              },
-              {
-                "componentId": "textAndList-1",
-                "componentType": "textAndList",
-                "text": {
-                  "title": "Empower Your Learning Journey",
-                  "description": "Our unique approach combines ancient wisdom with modern strategies to enhance your skills.",
-                  "subTitle": "Why Choose Us?",
-                  "array": [
-                    {
-                      "type": "StandardText",
-                      "title": "Focused Learning",
-                      "description": "Learn to concentrate on what truly matters in a fast-paced world."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Practical Application",
-                      "description": "Transform knowledge into actionable skills for real-world success."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Technology Integration",
-                      "description": "Utilize cutting-edge tools to enhance your learning experience."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Community Support",
-                      "description": "Join a network of like-minded individuals on the same path."
-                    }
-                  ]
-                }
-              },
-              {
-                "componentId": "featureBoxes-2",
-                "componentType": "featureBoxes",
-                "text": {
-                  "title": "Our Key Features",
-                  "description": "Discover the benefits that set us apart and drive your success.",
-                  "array": [
-                    {
-                      "type": "StandardText",
-                      "title": "Expert Guidance",
-                      "description": "Learn from experienced mentors who are experts in their fields."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Customized Programs",
-                      "description": "Tailor your learning experience to suit your unique needs and goals."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Interactive Learning",
-                      "description": "Engage with dynamic content that keeps you motivated and inspired."
-                    },
-                    {
-                      "type": "StandardText",
-                      "title": "Progress Tracking",
-                      "description": "Monitor your advancement and celebrate your milestones along the way."
-                    }
-                  ]
-                }
-              },
-              {
-                "componentId": "closingStatement-3",
-                "componentType": "closingStatement",
-                "text": {
-                  "title": "Transform Your Learning Today!",
-                  "description": "Join us on this journey to unlock your potential and thrive in a competitive landscape. With our guidance and resources, you'll master the art of learning and leverage technology to achieve your goals. Start your path to success now!",
-                  "array": []
-                }
-              }
-            ]
-          }
-        ],
-        "status": "draft",
-        "currentVersionNumber": 0,
-        "initialPaymentCompleted": false,
-        "initialPaymentRefunded": false,
-        "deploymentPaymentCompleted": false,
-        "deploymentPaymentRefunded": false,
-        "createdAt": "2025-12-28T21:33:24.189Z",
-        "updatedAt": "2025-12-28T21:33:24.189Z",
-        "_id": "6951a224ba75fbcbb94d50a6",
-        "versions": [],
-        "__v": 0
-      },
-      "createdAt": "2025-12-28T21:33:24.483Z",
-      "createdBy": "focusflowsoftware@gmail.com",
-      "changeDescription": "Initial website creation",
-      "status": "implemented",
-      "implementedAt": "2025-12-28T21:33:24.483Z"
-    }
-  ],
-  "__v": 0,
   "projectName": "samurai-training",
   "projectSlug": "samurai-training",
   "colorTheme": {
