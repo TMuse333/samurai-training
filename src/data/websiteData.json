@@ -30,8 +30,8 @@
           "context": "A herobanner that uses a slide show of images",
           "componentCategory": "hero",
           "props": {
-            "subTitle": "Master Your Skills with unknown secrets",
-            "title": "Unlock The Samurai Way and the quantum realm",
+            "subTitle": "Master Your Skills with new techniques from the quantum realm",
+            "title": "Unlock The quantum Samurai Way",
             "description": "Learn to excel in a competitive world by mastering the art of focus and information application.",
             "buttonText": "Get Started",
             "array": [],
@@ -201,7 +201,7 @@
                 "type": "StandardText"
               },
               {
-                "title": "what is the quantum realm?",
+                "title": "Is there a money-back guarantee?",
                 "description": "Yes, we offer a 30-day satisfaction guarantee.",
                 "type": "StandardText"
               },
@@ -671,6 +671,6 @@
       "radialBaseStop": 50
     }
   },
-  "createdAt": "2025-12-30T17:32:58.104Z",
-  "updatedAt": "2025-12-30T17:35:31.635Z"
+  "createdAt": "2025-12-30T17:44:57.505Z",
+  "updatedAt": "2025-12-30T17:45:25.380Z"
 }
