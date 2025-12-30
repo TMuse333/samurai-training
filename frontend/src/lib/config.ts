@@ -8,21 +8,21 @@
 export const GITHUB_CONFIG = {
   // Repo identification
   REPO_OWNER: process.env.REPO_OWNER || "TMuse333",                    // Always TMuse333 for all deployments
-  REPO_NAME: process.env.REPO_NAME || "next-js-template",              // Default to demo repo name
+  REPO_NAME: process.env.REPO_NAME || "samurai-training",              // Default to samurai-training repo name
 
   // Branch strategy
-  CURRENT_BRANCH: process.env.CURRENT_BRANCH || "experiment",          // Development branch
+  CURRENT_BRANCH: process.env.CURRENT_BRANCH || "development",          // Development branch
   PRODUCTION_BRANCH: process.env.PRODUCTION_BRANCH || "main",          // Production branch
 
   // GitHub API token
   GITHUB_TOKEN: process.env.GITHUB_TOKEN || "",                        // Required for GitHub API access
 
   // Optional metadata
-  USER_ID: process.env.USER_ID,
-  PROJECT_ID: process.env.PROJECT_ID,
+  USER_ID: process.env.USER_ID || '',
+  PROJECT_ID: process.env.PROJECT_ID || '',
 
   // User identification (for blob storage)
-  USER_EMAIL: process.env.USER_EMAIL,                                  // User's email for blob path
+  USER_EMAIL: process.env.USER_EMAIL || '',                                  // User's email for blob path
 
   // Vercel Blob configuration
   BLOB_TOKEN: process.env.BLOB_READ_WRITE_TOKEN || "",                 // Vercel Blob access token
@@ -46,11 +46,11 @@ if (typeof window === 'undefined') {
     );
   }
 
-  console.log("✅ GitHub config initialized:", {
-    repoOwner: GITHUB_CONFIG.REPO_OWNER,
-    repoName: GITHUB_CONFIG.REPO_NAME,
-    currentBranch: GITHUB_CONFIG.CURRENT_BRANCH,
-    productionBranch: GITHUB_CONFIG.PRODUCTION_BRANCH,
-    hasGitHubToken: !!GITHUB_CONFIG.GITHUB_TOKEN,
-  });
+  // console.log("✅ GitHub config initialized:", {
+  //   repoOwner: GITHUB_CONFIG.REPO_OWNER,
+  //   repoName: GITHUB_CONFIG.REPO_NAME,
+  //   currentBranch: GITHUB_CONFIG.CURRENT_BRANCH,
+  //   productionBranch: GITHUB_CONFIG.PRODUCTION_BRANCH,
+  //   hasGitHubToken: !!GITHUB_CONFIG.GITHUB_TOKEN,
+  // });
 }
