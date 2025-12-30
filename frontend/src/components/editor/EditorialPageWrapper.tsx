@@ -162,10 +162,12 @@ export default function EditorialPageWrapper({
       {/* Dashboard is always visible so users can toggle editor mode */}
       <Dashboard />
       
+      {/* PageSwitcher is always visible (like parent project) */}
+      <PageSwitcher />
+      
       {/* Other editor UI only shows when editor mode is on */}
       {editorMode && (
         <>
-          <PageSwitcher />
           <HelperBotButton />
           <HelperBotPanel />
         </>
